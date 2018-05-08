@@ -11,8 +11,8 @@ public class Stage {
 
 	public Stage() {
 		try {
-			this.imageRunning = ImageIO.read(new File("C:/Users/G/Desktop/stage-normal.png"));
-			this.imageOver = ImageIO.read(new File("C:/Users/G/Desktop/stage-gameover.png"));
+			this.imageRunning = ImageIO.read(new File("/Users/olivierkendra/Desktop/stage-normal.png")); 
+			this.imageOver = ImageIO.read(new File("/Users/olivierkendra/Desktop/stage-gameover.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

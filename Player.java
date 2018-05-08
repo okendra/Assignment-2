@@ -29,8 +29,4 @@ public class Player {
 
 	}
 
-	public void getWidth() {
-
-	}
-
 }
